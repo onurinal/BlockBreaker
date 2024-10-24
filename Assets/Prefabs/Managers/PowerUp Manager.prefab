@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8672537098387769333
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5154766764995316237}
+  - component: {fileID: 7468735287343564610}
+  m_Layer: 0
+  m_Name: PowerUp Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5154766764995316237
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672537098387769333}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7468735287343564610
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8672537098387769333}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 710d3912511d4a60a35803fa335e7691, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  powerUps:
+  - {fileID: 5714997806559163040, guid: 260e61fc96c0cd546aaa244627ac3274, type: 3}
+  - {fileID: 6457503682263965997, guid: 6d4ad8219030ae74ea1abc94e589fbeb, type: 3}
+  - {fileID: 7571556094575227750, guid: 60e269ce655759549a639c24aaf1b89d, type: 3}
+  - {fileID: 617157553030205288, guid: c4ae2768affe71947ab4c196e3f08c4d, type: 3}
+  - {fileID: 2359506774563405764, guid: 86da77de8730ec24fb9ff3cf3200f61c, type: 3}
+  - {fileID: 4705425841356238951, guid: 8c7830d7209a33a47a88a44c7bfc724a, type: 3}
+  - {fileID: 1967815523586591639, guid: a1984b81d29a1a045927821dd45250c2, type: 3}
+  - {fileID: 5349375993116909113, guid: afe6375d1860d1f4591a9cf15382b87b, type: 3}
+  - {fileID: 454486513109178553, guid: d7f42054df4ddb345b9037e370564217, type: 3}
+  dropPowerUpChance: 100

@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef258219fd03c9b488078b439454b24e, type: 3}
+  m_Name: Power Up Properties
+  m_EditorClassIdentifier: 
+  powerUpDuration: 4
+  maxBallCount: 9
+  multiBallYSpeed: 8
+  paddleBaseSizeModelX: 0.15
+  minPaddleExtendShrinkAmount: -0.05
+  maxPaddleExtendShrinkAmount: 0.15
+  minPaddleSizeModelX: 0.1
+  maxPaddleSizeModelX: 0.3
+  perExtendPaddleSizeModelX: 0.075
+  perShrinkPaddleSizeModelX: -0.05
+  paddleScaleUpDuration: 0.2
+  ballBaseSizeModelX: 0.15
+  ballBaseSizeModelY: 0.15
+  minBallExtendShrinkAmount: -0.05
+  maxBallExtendShrinkAmount: 0.3
+  minBallSizeModelX: 0.1
+  maxBallSizeModelX: 0.45
+  perExtendBallSizeModelX: 0.15
+  perShrinkBallSizeModelX: -0.05
+  ballScaleUpDuration: 0.3
+  laserBulletDamage: 1
+  laserBulletSpeedY: 8
+  laserBulletPerSecond: 0.2
